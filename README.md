@@ -73,3 +73,9 @@ In de level-editor plaats je objecten met je muis door ze uit de inventory te ki
 - 2 enemies
 - Score op basis van tijd
 - werkende versie
+
+## taakverdeling
+
+- lars = gridsystem+cameramovement
+- mallik = blok functionality+playermovement
+- delano = save+loadsystem+sprites
