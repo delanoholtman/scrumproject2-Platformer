@@ -1,0 +1,25 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:TextField label="Level name" placeholder-text="filler text" name="LevelNameInput" style="align-items: center; height: 60px;">
+        <ui:DropdownField label="levels" name="LevelDropdown"/>
+        <ui:Button text="Mode switch" name="ModeSwitchButton"/>
+        <ui:Button text="save" name="SaveButton"/>
+    </ui:TextField>
+    <ui:VisualElement style="flex-grow: 1; flex-direction: column-reverse;">
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; position: absolute; top: 49px; left: 26px; background-color: rgba(255, 255, 255, 0); width: 189px; height: 762px; background-image: url(&quot;project://database/Assets/sprites/old/pixil-frame-0%20(7).png?fileID=2800000&amp;guid=635347c9c0412fe42990a13ba8528dc5&amp;type=3#pixil-frame-0 (7)&quot;); -unity-background-image-tint-color: rgb(201, 197, 177); justify-content: space-around;">
+            <ui:Button text="Block" name="Blocks" focusable="false" style="-unity-background-image-tint-color: rgb(161, 161, 147); background-image: url(&quot;project://database/Assets/sprites/old/pixil-frame-0%20(8).png?fileID=2800000&amp;guid=6107a5d78edf4324aa4671f4c7bff49e&amp;type=3#pixil-frame-0 (8)&quot;);"/>
+            <ui:Button text="Player" name="Player" focusable="false" style="margin-bottom: 4px; margin-top: 4px; -unity-background-image-tint-color: rgb(161, 161, 147); background-image: url(&quot;project://database/Assets/sprites/old/pixil-frame-0%20(8).png?fileID=2800000&amp;guid=6107a5d78edf4324aa4671f4c7bff49e&amp;type=3#pixil-frame-0 (8)&quot;);"/>
+            <ui:Button text="spike" name="Spike" focusable="false" style="background-image: url(&quot;project://database/Assets/sprites/old/pixil-frame-0%20(8).png?fileID=2800000&amp;guid=6107a5d78edf4324aa4671f4c7bff49e&amp;type=3#pixil-frame-0 (8)&quot;); background-color: rgb(255, 255, 255); -unity-background-image-tint-color: rgb(160, 161, 146);"/>
+            <ui:Button text="enemy 1" name="enemy1" focusable="false" style="background-image: url(&quot;project://database/Assets/sprites/old/pixil-frame-0%20(8).png?fileID=2800000&amp;guid=6107a5d78edf4324aa4671f4c7bff49e&amp;type=3#pixil-frame-0 (8)&quot;); background-color: rgb(255, 255, 255); -unity-background-image-tint-color: rgb(160, 161, 146);"/>
+            <ui:Button text="enemy 2" name="enemy2" focusable="false" style="background-image: url(&quot;project://database/Assets/sprites/old/pixil-frame-0%20(8).png?fileID=2800000&amp;guid=6107a5d78edf4324aa4671f4c7bff49e&amp;type=3#pixil-frame-0 (8)&quot;); background-color: rgb(255, 255, 255); -unity-background-image-tint-color: rgb(160, 161, 146);"/>
+            <ui:Button text="finish" name="finish" focusable="false" style="background-image: url(&quot;project://database/Assets/sprites/old/pixil-frame-0%20(8).png?fileID=2800000&amp;guid=6107a5d78edf4324aa4671f4c7bff49e&amp;type=3#pixil-frame-0 (8)&quot;); background-color: rgb(255, 255, 255); -unity-background-image-tint-color: rgb(160, 161, 146);"/>
+            <ui:Button text="jump power-up" name="JumpPower" focusable="false" style="background-image: url(&quot;project://database/Assets/sprites/old/pixil-frame-0%20(8).png?fileID=2800000&amp;guid=6107a5d78edf4324aa4671f4c7bff49e&amp;type=3#pixil-frame-0 (8)&quot;); background-color: rgb(255, 255, 255); -unity-background-image-tint-color: rgb(160, 161, 146);"/>
+            <ui:Button text="speed power-up" name="SpeedPower" focusable="false" style="background-image: url(&quot;project://database/Assets/sprites/old/pixil-frame-0%20(8).png?fileID=2800000&amp;guid=6107a5d78edf4324aa4671f4c7bff49e&amp;type=3#pixil-frame-0 (8)&quot;); background-color: rgb(255, 255, 255); -unity-background-image-tint-color: rgb(160, 161, 146);"/>
+            <ui:Button text="saw" name="saw" style="background-image: url(&quot;project://database/Assets/sprites/old/pixil-frame-0%20(8).png?fileID=2800000&amp;guid=6107a5d78edf4324aa4671f4c7bff49e&amp;type=3#pixil-frame-0 (8)&quot;); -unity-background-image-tint-color: rgb(160, 161, 146);"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="OverwritePopup" style="flex-grow: 1; position: absolute; top: 0; right: 0; bottom: 0; left: 0; justify-content: center; align-items: center; background-color: rgba(0, 0, 0, 0.502); display: none;">
+        <ui:Label text="Do you want to overwrite?"/>
+        <ui:Button text="yes" name="ConfirmOverwriteButton" style="display: flex;"/>
+        <ui:Button text="no" name="CancelOverwriteButton"/>
+    </ui:VisualElement>
+</ui:UXML>
